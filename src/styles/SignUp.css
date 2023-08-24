@@ -1,78 +1,75 @@
-.signup-container{
-    display: flex;
-    width: 65%;
-    flex: none;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-top: 15px;
-    padding-bottom: 35px;
-    min-width: 320px;
+.signup-container {
+  display: flex;
+  width: 65%;
+  flex: none;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  min-width: 320px;
 }
 
-.signup-fields{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    overflow: auto;
-    padding-right: 15px;
+.signup-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  overflow: auto;
+  padding-right: 15px;
 }
-.signup-fields > div{
-    flex-basis: 45%;
-    flex-grow: 1;
+.signup-fields > div {
+  flex-basis: 45%;
+  flex-grow: 1;
 }
-.signup-fields .address-input{
-    flex-basis: 100%;
-} 
-.signup-fields .additional-address-input{
-    flex-basis: 20%;
+.signup-fields .address-input {
+  flex-basis: 100%;
 }
-.signup-title-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    margin-bottom: 50px;
+.signup-fields .additional-address-input {
+  flex-basis: 20%;
 }
-.signup-title-container .greeting-text{
-    color: #7181A1;
+.signup-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 50px;
+}
+.signup-title-container .greeting-text {
+  color: #7181a1;
 
-font-size: 20px;
-font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
-.signup-title-container .signup-text{
-    color: #131926;
-    font-weight: 600;
-    font-size: 36px;
-
+.signup-title-container .signup-text {
+  color: #131926;
+  font-weight: 600;
+  font-size: 36px;
 }
-.signup-forgot-password{
-    text-align: right;
-    color: #6688FF;
-    margin-top: 12px;
-}
-
-.signup-container .button-container{
-    margin-top: 30px;
+.signup-forgot-password {
+  text-align: right;
+  color: #6688ff;
+  margin-top: 12px;
 }
 
-.signup-login{
-    display: flex;
-    gap: 8px;
-    color:  #A0ABC0;
-    margin-top: 35px;
+.signup-container .button-container {
+  margin-top: 30px;
+}
 
+.signup-login {
+  display: flex;
+  gap: 8px;
+  color: #a0abc0;
+  margin-top: 35px;
 }
-.signup-login a{
-    color: #3361FF;
-
+.signup-login a {
+  color: #3361ff;
 }
-.singup-error{
-    color: #FF9494;
-    margin: 10px 0px;
+.singup-error {
+  color: #ff9494;
+  margin: 10px 0px;
 }
-.signup-container:has(.input-field-error) .button-container{
-    opacity: 0.5;
-    cursor: not-allowed !important;
+.signup-container:has(.input-field-error) .button-container {
+  opacity: 0.5;
+  cursor: not-allowed !important;
 }
-.signup-container:has(.input-field-error) button{
-    pointer-events: none;
+.signup-container:has(.input-field-error) button {
+  pointer-events: none;
 }

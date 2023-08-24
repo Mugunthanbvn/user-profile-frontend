@@ -1,23 +1,25 @@
 body {
-    margin: 0px !important;
-    
+  margin: 0px !important;
 }
 * {
-    box-sizing: border-box;
-    font-family: Noto Sans;
-  }
+  box-sizing: border-box;
+  font-family: Noto Sans;
+}
 
-  div, span{
-      cursor: default;
-  }
-  a, button, .icon{
-      cursor: pointer;
-  }
-  input{
-      cursor: text;
-  }
-  
-  .icon{
-      width: 24px;
-      height: 24px;
-  }
+div,
+span {
+  cursor: default;
+}
+a,
+button,
+.icon {
+  cursor: pointer;
+}
+input {
+  cursor: text;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}

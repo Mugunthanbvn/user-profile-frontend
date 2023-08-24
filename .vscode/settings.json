@@ -1,10 +1,8 @@
 {
-    "editor.quickSuggestions": {
-
-
-        "other": "on",
-        "comments": "off",
-        "strings": "off"
-    },
-    "files.associations": {}
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "files.associations": {}
 }

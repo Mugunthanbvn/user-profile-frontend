@@ -1,12 +1,11 @@
-.button-container{
-    display: flex;
+.button-container {
+  display: flex;
 }
-.button-container button{
-    background-color: #194DFF;
-    width: 350px;
-    height: 60px;
-    border-radius: 6px;
-    border: 0px;
-    color:  #FFFFFF;
-    
+.button-container button {
+  background-color: #194dff;
+  width: 350px;
+  height: 60px;
+  border-radius: 6px;
+  border: 0px;
+  color: #ffffff;
 }
