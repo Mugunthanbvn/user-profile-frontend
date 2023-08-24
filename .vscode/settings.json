@@ -1,0 +1,10 @@
+{
+    "editor.quickSuggestions": {
+
+
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "files.associations": {}
+}

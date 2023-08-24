@@ -1,0 +1,64 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex: none;
+    flex-direction: column;
+    padding-left: 50px;
+    min-width: 220px;
+}
+
+.login-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.login-title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 50px;
+}
+.login-title-container .greeting-text{
+    color: #7181A1;
+
+font-size: 20px;
+font-weight: 400;
+}
+.login-title-container .login-text{
+    color: #131926;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+.login-forgot-password{
+    text-align: right;
+    color: #6688FF;
+    margin-top: 12px;
+}
+
+.login-container .button-container{
+    margin-top: 30px;
+}
+
+.login-signup{
+    display: flex;
+    gap: 8px;
+    color:  #A0ABC0;
+    margin-top: 35px;
+
+}
+.login-signup a{
+    color: #3361FF;
+
+}
+.login-error{
+    color: #FF9494;
+    margin: 10px 0px;
+}

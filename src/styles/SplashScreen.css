@@ -1,0 +1,20 @@
+.with-splash-screen-container{
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+}
+.splash-screen-container{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex:auto;
+    border-radius: 20px;
+}
+.splash-logo{
+    position: absolute;
+    padding: 20px;
+}
+.splash-cover{
+    object-fit: cover;
+    width: 100%;
+}
