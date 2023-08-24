@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import NavBar from "./NavBar";
 import avatar from "../../assets/avatar.svg";
